@@ -7,7 +7,18 @@
 }
 body {
     font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 h1, h2, h3, h4, {
     font-family: var(--font-title);
+}
+
+.nav-link {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.nav-link:hover {
+    color: var(--accent-color);
 }
